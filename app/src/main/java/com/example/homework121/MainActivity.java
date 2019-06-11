@@ -16,15 +16,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        name = findViewById(R.id.name);
+        name = findViewById(R.id.editText);
         email = findViewById(R.id.email);
         total = findViewById(R.id.total);
     }
 
     public void okClick(View view) {
+        total.setText("Подписка на рассылку успешно оформлена для пользователя " + name.getText() +
+                " на электронный адрес " + email.getText());
         email.setText("");
         name.setText("");
-        total.setText("Подписка оформлена");
+
     }
 
     public  void clearClick(View view) {

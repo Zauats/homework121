@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="45dp"
         android:background="#354691"
         android:paddingLeft="20dp"
@@ -26,7 +26,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="20dp"
         android:layout_marginBottom="24dp"
         android:background="#5393B1"
         android:text="Имя пользователя"
@@ -39,7 +39,7 @@
     <TextView
         android:id="@+id/name"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="20dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="22dp"
@@ -53,8 +53,8 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="253dp"
+        android:layout_height="58dp"
         android:layout_marginBottom="21dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -66,7 +66,7 @@
     <EditText
         android:id="@+id/email"
         android:layout_width="247dp"
-        android:layout_height="0dp"
+        android:layout_height="51dp"
         android:layout_marginStart="24dp"
         android:layout_marginBottom="19dp"
         android:ems="10"
@@ -78,7 +78,7 @@
     <TextView
         android:id="@+id/total"
         android:layout_width="253dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
         android:layout_marginBottom="146dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,7 +88,7 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="14dp"
         android:onClick="okClick"
         android:text="ОК"
@@ -100,7 +100,7 @@
     <Button
         android:id="@+id/button4"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="56dp"
