@@ -1,5 +1,6 @@
 package com.example.homework121;
 
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,8 +23,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void okClick(View view) {
-        total.setText("Подписка на рассылку успешно оформлена для пользователя " + name.getText() +
-                " на электронный адрес " + email.getText());
+        String text1 = getResources().getString(R.string.text1);
+        String text2 = getResources().getString(R.string.text2);
+        total.setText(text1 + name.getText().toString() + text2 + email.getText());
         email.setText("");
         name.setText("");
 

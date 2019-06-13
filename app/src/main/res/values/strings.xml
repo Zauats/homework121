@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">homework121</string>
+    <string name="textView">Подписка</string>
+    <string name="textView2">Имя пользоватля</string>
+    <string name="name">Электронная почта</string>
+    <string name="buttonOk">ОК</string>
+    <string name="buttonClear">Очистить</string>
+    <string name="text1">"Подписка на рассылку успешно оформлена для пользователя "</string>
+    <string name="text2">" на электронный адрес "</string>
+
 </resources>
